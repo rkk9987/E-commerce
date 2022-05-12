@@ -151,10 +151,10 @@
            
           
 
-                <div id="signInBtn1" class="signInBtn"><span>SIGN IN&nbsp;</span>
+                <div id="signInBtn1" ><span>SIGN IN&nbsp;</span>
                     <div id="signInBtnBorder"></div>
                 </div>
-                <div id="signUpBtn1"><span> SIGN UP</span>
+                <div id="signUpBtn1" class="signInBtn"><span> SIGN UP</span>
                     <div id="signUpBtnBorder"></div>
                 </div>
            
@@ -314,6 +314,9 @@
                 Array.from(document.getElementsByClassName('inputBox1')).forEach((element)=>{
                     element.style.background=''
                 })
+           })
+           document.getElementsByClassName('signInBtn')[0].addEventListener('click',()=>{
+               location.href="../sign up/signup.html";
            })
            document.getElementsByClassName('signInBtn')[1].addEventListener('click',()=>{
                location.href="../sign up/signup.html";
