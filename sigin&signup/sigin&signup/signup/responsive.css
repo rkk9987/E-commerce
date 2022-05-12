@@ -6,12 +6,12 @@
   }
 
   .borderbottom {
-    margin: 0px 10px 10px 4px !important;
-  }
+    margin: 0px 10px 26px 4px !important;
+}
 
-  input#exampleFormControlInput1 {
-    margin: 0px 0 0 10px;
-  }
+input#exampleFormControlInput1 {
+  margin: 0px 0 16px 10px;
+}
   h4.heading1 {
     margin-left: 9px !important;
   }
@@ -23,7 +23,7 @@
   }
 
   a.resend {
-    margin-top: 4px;
+    margin-top: -9px;
 }
 
   .inrese {
@@ -37,7 +37,7 @@
   }
 
   .borderbottom {
-    margin: 0px 10px 10px 10px !important;
+    margin: 0px 10px 26px 10px !important;
   }
 
   input#exampleFormControlInput1 {
@@ -65,9 +65,9 @@
     margin-top: -18px;
   }
 
-  .borderbottom {
+  /* .borderbottom {
     margin-bottom: 25px !important;
-  }
+  } */
 
   input#exampleFormControlInput1 {
     width: 70vw;
@@ -93,13 +93,11 @@
     margin-top: -13px;
   }
 
-  .borderbottom {
-    margin-bottom: 23px !important;
-  }
+  /*  */
 
   .borderbottom {
-    margin: 0px 10px 10px 17px !important;
-  }
+    margin: 0px 10px 26px 17px !important;
+}
 
   h4.heading1 {
     margin-left: 56px !important;
@@ -140,7 +138,7 @@
   }
 
   .borderbottom {
-    margin-bottom: 21px !important;
+    margin-bottom: 26px !important;
   }
 
   h4.mb-4.heading1 {

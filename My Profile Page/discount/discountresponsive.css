@@ -80,6 +80,11 @@
         margin-left: 0px;
     }
 
+    .main_name{
+        text-align: center;
+    /* line-height: 16px; */
+        font-size: 15px !important;
+    }
 
     .sidebar1 {
         width: 30vw;

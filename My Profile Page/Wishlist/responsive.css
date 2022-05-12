@@ -71,6 +71,12 @@
         padding-left: 0px;
     }
 
+    .main_name{
+        text-align: center;
+    /* line-height: 16px; */
+        font-size: 15px !important;
+    }
+
     .svg_sty {
         margin-right: auto;
         margin-left: auto;

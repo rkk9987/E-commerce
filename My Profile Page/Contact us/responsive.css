@@ -46,6 +46,12 @@
         width: 30vw;
     }
 
+    .main_name{
+        text-align: center;
+    /* line-height: 16px; */
+        font-size: 15px !important;
+    }
+
     .sidebar .header {
         width: 30vw;
         display: grid;

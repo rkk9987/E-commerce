@@ -70,7 +70,9 @@
     border-radius: 20px;
 
 }
-
+.inputDivBox1{
+    margin-top: 20px;
+}
 .rowContainerBox2 {
 
     /* margin: 99px 73px auto 73px; */
@@ -179,7 +181,7 @@
 .btnSign {
     width: 100%;
     height: 42px;
-    margin: 28px auto;
+    margin: 13px auto 20px auto;
     background: #07203F;
     border-radius: 10px;
     font-family: 'Poppins';
@@ -194,6 +196,7 @@
 .orSection{
     display: flex;
     justify-content: center;
+    height: 29px;
 }
 .orText1{
 width: 10%;
@@ -225,9 +228,13 @@ color: #000000;
     font-weight: 275;
     font-size: 13px;
     line-height: 20px;
-
+    margin: 10px;
 
 color: #000000;
+}
+.alreadyAccount{
+    font-size: 16px;
+    font-weight: 200;
 }
 .signinbtn2{
 width: 45px;
@@ -280,6 +287,6 @@ padding: 8px 5px;
         margin: auto 20px;
     }
 }
-@media screen and (max-width: 1300px) {
+@media (min-width:320px ) and (max-width:1164px) {
    
 }

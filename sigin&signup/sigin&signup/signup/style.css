@@ -91,7 +91,7 @@ button.btn1 {
 }
 
 input#exampleFormControlInput1 {
-  margin: 20px 20px 22px 50px;
+  margin: 0px 20px 14px 50px;
 }
 
 h4.heading1 {
@@ -124,7 +124,7 @@ h4.heading1 {
 }
 
 .borderbottom {
-  margin-bottom: 27px;
+  margin-bottom: 26px;
 }
 a.resend {
   margin-top: -10px;

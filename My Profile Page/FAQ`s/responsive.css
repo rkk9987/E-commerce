@@ -72,11 +72,11 @@
     }
 
     .sidebar {
-        width: 38vw;
+        width: 30vw;
     }
     
     .sidebar .header {
-        width: 34vw;
+        width: 30vw;
         display: grid;
         padding-left: 0px;
     }
@@ -86,6 +86,11 @@
         display: block;
     }
     
+    .main_name{
+        text-align: center;
+    /* line-height: 16px; */
+        font-size: 15px !important;
+    }
 
     .svg_sty {
         margin-right: auto;
@@ -141,9 +146,9 @@
     }
 }
 
-@media(min-width:768px) and (max-width:1287px) {
+@media(min-width:769px) and (max-width:1025px) {
     .margin_main {
-        padding: 0 57px;
+        padding: 0 13px;
         margin-top: 66px;
     }
 
@@ -154,21 +159,21 @@
 
     .sidebar .header {
         width: 30vw;
-        display: flex;
-        padding-left: 0px;
+        /* display: flex;
+        padding-left: 20px; */
     }
 
-    .svg_sty {
+    /* .svg_sty {
         margin-right: auto;
         margin-left: auto;
         display: block;
-    }
+    } */
 
-    .sidebar .header h2 {
-        margin-right: 45%;
+    /* .sidebar .header h2 {
+        margin-right: 26px;
         margin-left: auto;
         display: block;
-    }
+    } */
 
     .content {
         width: 57vw;
@@ -239,3 +244,69 @@
         width: 24%;
     }
 } */
+
+@media(min-width:1025px) and (max-width:1380px) {
+    .margin_main {
+        padding: 0 13px;
+        margin-top: 66px;
+    }
+
+    .sidebar {
+        width: 30vw;
+    }
+    
+
+    .sidebar .header {
+        width: 30vw;
+        /* display: flex;
+        padding-left: 20px; */
+    }
+
+    /* .svg_sty {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    } */
+
+    /* .sidebar .header h2 {
+        margin-right: 26px;
+        margin-left: auto;
+        display: block;
+    } */
+
+    .content {
+        width: 57vw;
+    }
+
+    .content_heading h2 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding-left: 0px;
+    }
+
+    .whishlist_card {
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        display: flex;
+        overflow: auto;
+    }
+
+    .whishlist_element {
+        /* flex-shrink: 0; */
+        width: 65% !important;
+    }
+
+    #btn_id {
+        border-bottom: 1px solid #A65E46;
+        border-right: none;
+    }
+
+    .del_view_btn {
+        margin-bottom: 20%;
+    }
+
+    .button_class {
+        width: 33vw;
+    }
+}
