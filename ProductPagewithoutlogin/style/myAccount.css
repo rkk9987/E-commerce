@@ -21,6 +21,8 @@ display: none;
 /* transition:  1s; */
 float: right;
 right: 42px;
+z-index: 10 ;
+
 }
 hr{
     margin: 0 !important;
@@ -30,6 +32,7 @@ hr{
     display: flex;
     flex-direction: column;
     height: 100%;
+    
 }
 .myAccountUpContainer{
     width: 88%;
@@ -60,6 +63,7 @@ hr{
 }
 .myAccountDownContainer{
     height: 70%;
+    overflow: hidden;
         width: 100%;
 }
 .lists{

@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ORDER-RETURN</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
@@ -83,7 +86,7 @@
         }
 
         .drop-down:nth-child(2)>.options>.option {
-            margin-left: 0;
+            margin-left: 60px;
             font-size: 23px;
             /* padding: 2% 2%; */
         }
@@ -92,7 +95,10 @@
             margin-left: 12px;
         }
 
-
+        .reason{
+            margin-left: 32px;
+            font-weight: 200;
+        }
         .option input[type="radio"] {
             transform: scale(1.7);
             accent-color: rgb(27, 7, 43);
@@ -128,6 +134,7 @@
 
         .btns {
             padding: 5% 0%;
+            margin-left: 42px;
         }
 
         .btn {
@@ -180,7 +187,7 @@
         }
 
         .cart-card p {
-            font-weight: 900;
+            font-weight: 500;
         }
 
         .cart-card p:nth-child(2) {
@@ -430,21 +437,21 @@
          </div>
          <div class="myAccountDownContainer">
              <hr>
-                 <div class="lists"><a href="../My Profile Page/Wishlist/index.html"><img src="icons/akar-icons_heart (1).svg"><span>
-                             Wishlist</span></a></div>
-                             <hr>
-                 <div class="lists"><a href="../My Profile Page/Order Placed/index.html" > <img src="icons/carbon_order-details.svg"><span>
-                             Orders</span></a></div><hr>
-                 <div class="lists"><a href="../My Profile Page/discount/discount.html"> <img src="icons/tabler_shopping-cart-discount.svg"><span>
-                             Discounts</span></a></div><hr>
-                             <div class="lists"><a href="../My Profile Page/discount/discount.html"> <img src="icons/Group (7).svg"><span>
-                                 Supercoins</span></a></div><hr>
-                 <div class="lists"><a href=> <img src="icons/Vector (5).svg"><span>
-                             Saved Address</span> </a></div><hr>
-                 <div class="lists"><a href="../My Profile Page/Contact us/index.html"> <img src="icons/cil_contact.svg"><span>
-                             Contact us</span></a></div><hr>
-                 <div class="lists"><a href="../My Profile Page/FAQ`s/index.html"> <img src="icons/Group (8).svg"><span>
-                             FAQ's</span></a></div>
+             <div class="lists"><a href="../My Profile Page/Wishlist/index.html"><img src="icons/akar-icons_heart (1).svg"><span>
+                Wishlist</span></a></div>
+                <hr>
+    <div class="lists"><a href="../My Profile Page/Order Placed/index.html" > <img src="icons/carbon_order-details.svg"><span>
+                Orders</span></a></div><hr>
+    <div class="lists"><a href="../My Profile Page/discount/discount.html"> <img src="icons/tabler_shopping-cart-discount.svg"><span>
+                Discounts</span></a></div><hr>
+                <div class="lists"><a href="../My Profile Page/discount/discount.html"> <img src="icons/Group (7).svg"><span>
+                    Supercoins</span></a></div><hr>
+    <div class="lists"><a href="../My Profile Page/Saved_address/index.html"> <img src="icons/Vector (5).svg"><span>
+                Saved Address</span> </a></div><hr>
+    <div class="lists"><a href="../My Profile Page/Contact us/index.html"> <img src="icons/cil_contact.svg"><span>
+                Contact us</span></a></div><hr>
+    <div class="lists"><a href="../My Profile Page/FAQ`s/index.html"> <img src="icons/Group (8).svg"><span>
+                FAQ's</span></a></div>
              
          </div>
      </div>
@@ -463,7 +470,7 @@
                     <div class="option">
                         <input type="radio" name="radio-1" id="1" onclick="showOption(this.id)" class="input">
                         <div class="option-field">
-                            <h5>Got a wrong Size</h5>
+                            <span class="reason">Got a wrong Size</span>
                             <div class="option-fields">
                                 <input type="text" name="text-1" id="text-1">
                                 <div class="btns">
@@ -477,7 +484,7 @@
                         <!-- <h1>hello</h1> -->
                         <input type="radio" name="radio-1" id="2" onclick="showOption(this.id)" class="input">
                         <div class="option-field">
-                            <h5>Got a wrong Color</h5>
+                            <span class="reason">Got a wrong Color </span>
                             <div class="option-fields">
                                 <input type="text" name="text-1" id="text-1">
                                 <div class="btns">
@@ -490,7 +497,7 @@
                     <div class="option">
                         <input type="radio" name="radio-1" id="3" onclick="showOption(this.id)" class="input">
                         <div class="option-field">
-                            <h5>Product Quality is not good</h5>
+                            <span class="reason">Product Quality is not good</span> 
                             <div class="option-fields">
                                 <input type="text" name="text-1" id="text-1">
                                 <div class="btns">
@@ -503,7 +510,7 @@
                     <div class="option">
                         <input type="radio" name="radio-1" id="4" onclick="showOption(this.id)" class="input">
                         <div class="option-field">
-                            <h5>Received a damage product</h5>
+                            <span class="reason">Received a damage product</span>
                             <div class="option-fields">
                                 <input type="text" name="text-1" id="text-1">
                                 <div class="btns">
@@ -516,7 +523,7 @@
                     <div class="option">
                         <input type="radio" name="radio-1" id="5" onclick="showOption(this.id)" class="input">
                         <div class="option-field">
-                            <h5>Missing product</h5>
+                            <span class="reason">Missing product</span>
                             <div class="option-fields">
                                 <input type="text" name="text-1" id="text-1">
                                 <div class="btns">
@@ -529,7 +536,7 @@
                     <div class="option">
                         <input type="radio" name="radio-1" id="6" onclick="showOption(this.id)" class="input">
                         <div class="option-field">
-                            <h5>Received a wrong product</h5>
+                            <span class="reason">Received a wrong product</span>
                             <div class="option-fields">
                                 <input type="text" name="text-1" id="text-1">
                                 <div class="btns">
@@ -547,14 +554,14 @@
                     <div class="heading-text">RETURN ACTION</div>
                 </div>
                 <div class="options">
-                   <h3>What do you want in return?</h3>
+                   <h3 style="font-weight: 400;">What do you want in return?</h3>
                     <div class="option">
                         <input type="radio" name="radio" id="" required>
-                        <h5>Refund</h5>
+                        <span class="reason">Refund</h5>
                     </div>
                     <div class="option">
                         <input type="radio" name="radio" id="" required>
-                        <h5>Exchange</h5>
+                        <span class="reason">Exchange</h5>
                     </div>
                     <div class="btns">
                         <button class="btn submit">SUBMIT</button>

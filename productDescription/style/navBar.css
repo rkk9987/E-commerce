@@ -142,18 +142,19 @@ margin-left: 2px;
     display: flex;
     align-items: center;
     cursor: pointer;
+    height: 35px;
 }
 .cartLogo{
     width: 26.44px;
 }
 .productNumber{
-    
+    font-size: 12px;
     position: relative;
-    left: 27px;
+    left: 29px;
     top: -8px;
     background: white;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -220,12 +221,12 @@ color: #FFFFFF;
 
     .productNumber{
         
-    left: 21px;
-    top: -5px;
-  
-    width: 12px;
-    font-size: 12px;
-    height: 12px;
+        left: 21px;
+        top: -5px;
+        width: 12px;
+        font-size: 9px;
+        height: 13px;
+        overflow: hidden;
      
     }
     .navDownContainer{
