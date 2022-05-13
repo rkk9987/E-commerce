@@ -2,11 +2,11 @@
 
 
 .container1 {
-    /* max-width: 1024px; */
-
+    max-width: 1440px;
+/* border: 1px solid red; */
     /* margin:99px auto; */
-    margin: 50px auto;
-
+    margin: 30px auto;
+    
 }
 
 .rowContainerBox1 {
@@ -240,7 +240,7 @@ color: #000000;
 .hrOrline{
     width: 43%;
     height: 0px;
-    border: 1px solid #000000;
+    border-bottom: 2px solid #000000;
     margin: 20px auto;
     
 }
@@ -286,27 +286,3 @@ padding: 8px 5px;
     text-decoration: none;
 }
 
-@media screen and (min-width: 1219px) {
-    .rowContainerBox1 {
-        display: none;
-    }
-    .formHeading1{
-        display: default;
-    }
-}
-@media screen and (max-width: 1218px) {
-    .rowContainerBox1 {
-        display: defaul;
-    }
-    .formHeading1{
-        display: none;
-    }
-}
-@media screen and (max-width: 1230px) {
-    .imgBox1{
-        margin: auto 20px;
-    }
-}
-@media screen and (max-width: 1300px) {
-   
-}

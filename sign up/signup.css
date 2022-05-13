@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Poppins&display=swap');
 
 .container1 {
-    /* max-width: 1024px; */
-
-    /* margin:99px auto; */
-    margin: 50px auto;
+    max-width: 1440px;
+    /* border: 1px solid red; */
+    margin: 30px auto;
 
 }
 
@@ -70,9 +69,7 @@
     border-radius: 20px;
 
 }
-.inputDivBox1{
-    margin-top: 20px;
-}
+
 .rowContainerBox2 {
 
     /* margin: 99px 73px auto 73px; */
@@ -156,7 +153,7 @@
 
 
 .formHeading1{
-    margin-bottom: 32px; 
+    margin-bottom: 20px; 
     display: flex;
      justify-content: center;
 }
@@ -181,7 +178,9 @@
 .btnSign {
     width: 100%;
     height: 42px;
-    margin: 13px auto 20px auto;
+    /* margin: 28px auto; */
+    margin-top: 22px;
+    margin-bottom: 27px;
     background: #07203F;
     border-radius: 10px;
     font-family: 'Poppins';
@@ -196,7 +195,6 @@
 .orSection{
     display: flex;
     justify-content: center;
-    height: 29px;
 }
 .orText1{
 width: 10%;
@@ -228,13 +226,9 @@ color: #000000;
     font-weight: 275;
     font-size: 13px;
     line-height: 20px;
-    margin: 10px;
+
 
 color: #000000;
-}
-.alreadyAccount{
-    font-size: 16px;
-    font-weight: 200;
 }
 .signinbtn2{
 width: 45px;
@@ -266,7 +260,7 @@ padding: 8px 5px;
 .socialLoginBtn1 a{
     text-decoration: none;
 }
-@media screen and (min-width: 1219px) {
+/* @media screen and (min-width: 1219px) {
     .rowContainerBox1 {
         display: none;
     }
@@ -286,7 +280,10 @@ padding: 8px 5px;
     .imgBox1{
         margin: auto 20px;
     }
+    .formBox1{
+        margin: auto 15px;
+    }
 }
-@media (min-width:320px ) and (max-width:1164px) {
+@media screen and (max-width: 1300px) {
    
-}
+} */

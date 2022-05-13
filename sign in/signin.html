@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="signin.css">
     <link rel="stylesheet" href="style/resonsive.css">
     <link rel="stylesheet" href="style/signup.css">
+    <link rel="stylesheet" href="responsive.css">
 
 </head>
 
@@ -148,9 +149,6 @@
 
     <div class="container1">
         <div class="rowContainerBox1" >
-           
-          
-
                 <div id="signInBtn1" ><span>SIGN IN&nbsp;</span>
                     <div id="signInBtnBorder"></div>
                 </div>
@@ -160,6 +158,8 @@
            
         </div>
         <div class="rowContainerBox2">
+
+            <!-- img box start -->
             <div class="imgBox1" >
                 <!-- <img src="model1.png" alt="" id="formImg1"> -->
                 <div class="spaceBox1" ></div>
@@ -172,7 +172,11 @@
                 </div>
                
             </div>
+
+            <!-- img box end -->
+
             <div class="formBox1">
+                
                 <div class="formHeading1">
 
                     <div id="signInBtn1" ><span>SIGN IN&nbsp;</span>
@@ -182,11 +186,13 @@
                         <div id="signUpBtnBorder"></div>
                     </div>
                 </div>
+
+
                 <div class="formBoxRow1">
                   
                     <form action="">
 
-                        <div class="inputDivBox1" tyle="">
+                        <div class="inputDivBox1" tyle="" >
                             <span><img src="phoneno.svg" alt="" style="    position: relative;
                                 top: 3px;"></span>
                             <input type="text" class="inputBox1" name="" id="" placeholder="Mobile Number" required>
@@ -240,7 +246,7 @@
                             &nbsp;
                             <span><a href="" class="signinbtn2">Create an Account</a> </span>
                         </div>
-                        <div class="orSection">
+                        <div class="orSection orSection2 ">
                             <div class="hrOrline"></div>
                             <div class="orText1"><span>OR</span> </div>
                             <div class="hrOrline"></div>
@@ -268,7 +274,7 @@
 
 
     </div>
-    <!-- <div class="container-fluid signInOTP">
+    <div class="container-fluid signInOTP">
         <div class="row d-flex justify-content-center mt-5">
 
             <div class="col-md-6" id="hieghtfixed">
@@ -299,7 +305,8 @@
         </div>
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
-     <script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script>
            document.getElementsByClassName('btnSign')[0].addEventListener('click',()=>{
                 document.getElementsByClassName('signInOTP')[0].style.display='block';
                 document.body.style.background='#e5e5e5';
