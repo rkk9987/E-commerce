@@ -1,6 +1,6 @@
 @media (min-width: 320px) and (max-width: 375px) {
     input#exampleFormControlInput1 {
-      width: 88vw !important;
+      /* width: 88vw !important; */
       height: 38px;
       margin-top: 0px;
     }
@@ -10,7 +10,7 @@
     }
   
     input#exampleFormControlInput1 {
-      margin: 0px 0 0 10px;
+      /* margin: 0px 0 0 10px; */
     }
     h4.heading2 {
       margin-left: 9px !important;
@@ -29,6 +29,9 @@
     .inres {
       width: auto;
     }
+    .inres {
+      margin-left: 0 !important;
+    }
   }
   
   @media (min-width: 375px) and (max-width: 425px) {
@@ -41,13 +44,13 @@
     }
   
     input#exampleFormControlInput1 {
-      width: 88vw;
+      /* width: 88vw; */
       height: 38px;
       margin-top: 0px;
     }
   
     input#exampleFormControlInput1 {
-      margin-top: 0px;
+      /* margin-top: 0px; */
       margin-left: 31px;
       margin-bottom: 22px;
     }
@@ -63,6 +66,8 @@
     }
     a.otp {
       margin-top: -18px;
+      position: relative;
+    top: -12px;
     }
   
     .borderdown {
@@ -70,7 +75,7 @@
     }
   
     input#exampleFormControlInput1 {
-      width: 70vw;
+      /* width: 70vw; */
       height: 38px;
     }
     .fill {
@@ -80,11 +85,17 @@
     .inres {
       width: auto;
     }
+    .inres {
+      
+      margin-left: 0 !important;
+      
+    
+    }
   }
   
   @media (min-width: 425px) and (max-width: 768px) {
     input#exampleFormControlInput1 {
-      margin-top: 0px;
+      /* margin-top: 0px; */
       margin-left: 58px;
       margin-bottom: 22px;
     }
@@ -123,9 +134,20 @@
     .inres {
       width: auto;
     }
+    .inres {
+      
+      margin-left: 0 !important;
+      
+    
+    }
   }
   
   @media (min-width: 768px) and (max-width: 1024px) {
+
+    .col-md-6 {
+       
+      width: 100%;
+  }
     .fill {
       height: 48px;
     }
@@ -135,7 +157,7 @@
     }
   
     input#exampleFormControlInput1 {
-      margin-left: 48px;
+      /* margin-left: 48px; */
       margin-top: 0px;
     }
   
@@ -163,9 +185,17 @@
     a.otp {
       margin-top: -15px;
     }
+    
   }
-  
+  .col-md-6 {
+       
+    width: 100%;
+}
   @media (min-width: 1024px) and (max-width: 1280px) {
+    .col-md-6 {
+       
+      width: 100%;
+  }
     .fill {
       width: 40vw;
       height: 48px;
@@ -173,7 +203,7 @@
     }
   
     input#exampleFormControlInput1 {
-      margin: 20px 20px 20px 45px;
+      /* margin: 20px 20px 20px 45px; */
     }
     h4.mb-4.heading2 {
       width: 400px;
@@ -201,9 +231,20 @@
     a.otp {
       margin-top: -15px;
     }
+    
   }
   
   @media (min-width: 1280px) and (max-width: 1440px) {
+    .inres {
+      
+      margin-left: 0;
+      
+    
+    }
+    .col-md-6 {
+       
+      width: 100%;
+  }
     .input {
       width: 629px !important;
     }
@@ -217,7 +258,7 @@
     }
   
     input#exampleFormControlInput1 {
-      margin: 26px 20px 22px 50px;
+      /* margin: 26px 20px 22px 50px; */
     }
     h4.heading2 {
       margin-left: 50px;

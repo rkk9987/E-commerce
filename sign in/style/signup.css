@@ -2,13 +2,16 @@
   max-width: 629px;
   position: relative;
     top: -579px;
-    left: 387px;
+    left: 0;
     display: none;
+    width: 95%;
+    margin: auto;
 }
 
 body {
   /* background-color: #e5e5e5; */
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .form-control_mine {
@@ -58,7 +61,7 @@ body {
 
 #hieghtfixed{
     background: #FFFFFF;
-    width: 629px;
+    /* width: 629px; */
 }
 
 
@@ -78,7 +81,7 @@ body {
 }
 
 .borderdown {
-  width: 629px !important;
+  width: 97%;
     border-bottom: 1px solid black;
 }
 
@@ -94,7 +97,7 @@ button.btn2 {
 }
 
 input#exampleFormControlInput1 {
-  margin: 20px 20px 22px 50px;
+  /* margin: 20px 20px 22px 50px; */
 }
 
 h4.heading2 {
@@ -105,7 +108,9 @@ h4.heading2 {
 .inres {
   display: flex;
   align-items: center;
-  width: 629px;
+  max-width: 629px;
+  margin-left: 53px;
+  width: 90%;
   margin-top: 10px !important;
 
 }
